@@ -9,7 +9,7 @@ export const useServerTimeLoader = routeLoader$(() => {
 
 export default component$(() => {
   return (
-    <div>
+    <div class="p-8">
       <Slot />
     </div>
   );
